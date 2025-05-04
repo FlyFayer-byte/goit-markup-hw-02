@@ -41,6 +41,9 @@ a {
   color: #404bbf;
 }
 
+.contact-info {
+  font-style: normal;
+}
 .contact-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
