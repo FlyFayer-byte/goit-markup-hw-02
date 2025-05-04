@@ -37,7 +37,7 @@ a {
   color: #2e2f42;
 }
 .nav-link:hover,
-.nav-link:active {
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -50,7 +50,7 @@ a {
   color: #434455;
 }
 .contact-link:hover,
-.contact-link:active {
+.contact-link:focus {
   color: #404bbf;
 }
 
