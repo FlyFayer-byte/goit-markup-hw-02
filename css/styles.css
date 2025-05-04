@@ -37,7 +37,7 @@ a {
   color: #2e2f42;
 }
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:active {
   color: #404bbf;
 }
 
