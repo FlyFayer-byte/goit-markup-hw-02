@@ -84,7 +84,13 @@ a {
 .button:focus {
   background: #404bbf;
 }
-
+/* Our team */
+.our-team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  text-transform: capitalize;
+}
 .team-title,
 .portfolio-title {
   font-weight: 700;
@@ -96,6 +102,7 @@ a {
 }
 .team-member {
   text-align: center;
+  background-color: #ffffff;
 }
 .member-name {
   font-weight: 500;
