@@ -49,7 +49,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:active {
   color: #404bbf;
 }
 
