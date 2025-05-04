@@ -1,17 +1,127 @@
-/*
-Порядок додавання стилів: 
-Пропиши стилі для body (font-family, color та background-color) 
+/* Стилі для body */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+  font-size: 16px;
+}
 
-Пропиши CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках. 
+/* CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-Робота зі стилями елементів Коли попередні пункти виконані,
-час розпочати працювати зі стилями елементів. 
+/* Logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+}
 
-Пам’ятай, що рухаємось зліва направо і зверху вниз по макету. Для кожного елемента: Обираємо елемент,
-з яким будемо працювати,
-У файлі html додаємо атрибут class з іменем класу,
-У файлі css звертаємося до цього елемента за селектором класу та прописуємо необхідні властивості (колір, властивості шрифта). Перед тим,
-як здати готове ДЗ 2,
-перевір що воно відповідає всім Критеріям приймання роботи наставником,
-що перелічені у вкладці Домашнє завдання.
-*/
+/* Navigation */
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-link:hover {
+  color: #404bbf;
+}
+
+.contact-link {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-link:hover {
+  color: #404bbf;
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* Button */
+.button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.button:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  font-weight: 600;
+}
+.button:active {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+
+.team-title,
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-member {
+  text-align: center;
+}
+.member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.member-position {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Footer */
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
